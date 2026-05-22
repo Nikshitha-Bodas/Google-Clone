@@ -1,0 +1,102 @@
+  .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        .header_left a,
+        .header_right a{
+            margin-right: 15px;
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+        }
+        .header_left a:hover,
+        .header_right a:hover{
+            text-decoration: underline;
+        }
+        .header_right{
+            display: flex;
+            align-items: center;
+        }
+        .apps-icon{
+            width: 22px;
+            height: 22px;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 2px;
+            margin-left: 10px;
+            cursor: pointer;
+            padding: 8px;
+            border-radius: 50%;
+            transition: background-color 0.3s;
+        }
+        .apps-icon div{
+            width: 4px;
+            height: 4px;
+            background-color: gray;
+            border-radius: 50%;
+        }
+        .apps-icon:hover{
+            background-color: rgb(240,240,240);
+        }
+        .s{
+            background-color: #1a73e8;
+            color: white;
+            border: none;
+            height: 36px;
+            width: 80px;
+            border-radius: 5px;
+            margin-left: 15px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .s:hover{
+            background-color:gray;
+        }
+        .logo{
+            width: 350px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 80px;
+            margin-bottom: 30px;
+        }
+        .search-container{
+            position: relative;
+            width: 600px;
+            margin: auto;
+        }
+
+        .search{
+            width: 100%;
+            height: 45px;
+            border-radius: 30px;
+            border: 1px solid rgb(200,200,200);
+            padding-left: 20px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        .search:hover{
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+        .button{
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .b2{
+            height: 36px;
+            border: 1px solid rgb(220,220,220);
+            border-radius: 5px;
+            margin-right: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            background-color: #f8f9fa;
+            cursor: pointer;
+        }
+
+        .b2:hover{
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
